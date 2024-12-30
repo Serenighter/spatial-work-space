@@ -9,9 +9,18 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
-# MemoryCaptures can get excessive in size.
-# They also could contain extremely sensitive data
+[Ee]xports/
+UserSettings/
+Logs/
+UpgradeLog.htm
+*.csproj
+*.sln
+.vsconfig
+.vscode
+!Assets/**/*~
+Assets/Unity.VisualScripting.Generated*
+Assets/Spatial/Temp*
+Assets/Spatial/Generated*
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
